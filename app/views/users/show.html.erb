@@ -1,10 +1,16 @@
+<%= render "layouts/navbar", title: "User Profile" %>
 <p style="color: green"><%= notice %></p>
 
-<%= render @user %>
-
-<div>
-  <%= link_to "Edit this user", edit_user_path(@user) %> |
-  <%= link_to "Back to users", users_path %>
-
-  <%= button_to "Destroy this user", @user, method: :delete %>
+<div class="container">
+  <div class="text-center mt-5">
+    <small>Welcome</small>
+    <h3><%= @user.name %></h3>
+  </div>
 </div>
+
+<div class="container">
+  <div class="text-center mt-5">
+    <%= link_to "Home", categories_path, class: "btn btn-blu" %>
+  </div>
+</div>
+
