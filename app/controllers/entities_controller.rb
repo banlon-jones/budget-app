@@ -1,5 +1,6 @@
 class EntitiesController < ApplicationController
   before_action :set_entity, only: %i[show]
+  before_action :authenticate_user!
   load_and_authorize_resource
 
   # GET /entities/1 or /entities/1.json

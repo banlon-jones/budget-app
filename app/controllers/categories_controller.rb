@@ -1,5 +1,6 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: %i[show edit update destroy]
+  before_action :authenticate_user!
   load_and_authorize_resource
 
   # GET /categories or /categories.json
