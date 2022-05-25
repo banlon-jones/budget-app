@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab377513-0bb0-4012-8741-3ce9b131747a" name="Changes" comment="linter errors fix">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/entities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/entities_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +369,9 @@
       <option name="presentableId" value="Default" />
       <updated>1653262286760</updated>
       <workItem from="1653262291665" duration="2862000" />
-      <workItem from="1653337670293" duration="49663000" />
+      <workItem from="1653337670293" duration="52146000" />
+      <workItem from="1653456814870" duration="1054000" />
+      <workItem from="1653480583649" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1653264522409</created>
@@ -409,7 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653451799736</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="linter errors fix">
+      <created>1653453058651</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653453058651</updated>
+    </task>
+    <task id="LOCAL-00008" summary="linter errors fix">
+      <created>1653453142358</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653453142358</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
