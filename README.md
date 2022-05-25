@@ -8,9 +8,11 @@ The Budget app keeps track of all your transactions, and transaction categories.
 
 ![app-screenshot](./app-image.png)
 
-## Live Version
+## Live Demo
 
-Coming soon
+[Heroku link](https://nameless-stream-83585.herokuapp.com/)
+
+https://nameless-stream-83585.herokuapp.com/
 
 ## Built With
 - Ruby on Rails
