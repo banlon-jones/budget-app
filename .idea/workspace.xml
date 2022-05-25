@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab377513-0bb0-4012-8741-3ce9b131747a" name="Changes" comment="linter error fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ab377513-0bb0-4012-8741-3ce9b131747a" name="Changes" comment="test fixed">
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/integration/index_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/integration/index_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -370,7 +368,7 @@
       <workItem from="1653262291665" duration="2862000" />
       <workItem from="1653337670293" duration="52146000" />
       <workItem from="1653456814870" duration="1054000" />
-      <workItem from="1653480583649" duration="7822000" />
+      <workItem from="1653480583649" duration="8194000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1653264522409</created>
@@ -449,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653504197293</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test fixed">
+      <created>1653505911808</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653505911808</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test fixed">
+      <created>1653506072798</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653506072798</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +486,8 @@
     <MESSAGE value="linter errors fix" />
     <MESSAGE value="dollar sign added" />
     <MESSAGE value="linter error fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="linter error fix" />
+    <MESSAGE value="test fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fixed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/budget_app@index.rcov" NAME="index Coverage Results" MODIFIED="1653443614901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
@@ -485,9 +498,9 @@
     <SUITE FILE_PATH="coverage/budget_app@Entity.rcov" NAME="Entity Coverage Results" MODIFIED="1653356193345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
     <SUITE FILE_PATH="coverage/budget_app@categories_index.rcov" NAME="categories/index Coverage Results" MODIFIED="1653444167710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
     <SUITE FILE_PATH="coverage/budget_app@entities_new.rcov" NAME="entities/new Coverage Results" MODIFIED="1653377469879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
-    <SUITE FILE_PATH="coverage/budget_app@users_show.rcov" NAME="users/show Coverage Results" MODIFIED="1653444048548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
+    <SUITE FILE_PATH="coverage/budget_app@users_show.rcov" NAME="users/show Coverage Results" MODIFIED="1653505961848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
     <SUITE FILE_PATH="coverage/budget_app@UsersController.rcov" NAME="UsersController Coverage Results" MODIFIED="1653357474337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
-    <SUITE FILE_PATH="coverage/budget_app@Index.rcov" NAME="Index Coverage Results" MODIFIED="1653505762322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
+    <SUITE FILE_PATH="coverage/budget_app@Index.rcov" NAME="Index Coverage Results" MODIFIED="1653505888267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
     <SUITE FILE_PATH="coverage/budget_app@CategoriesController.rcov" NAME="CategoriesController Coverage Results" MODIFIED="1653357368881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
     <SUITE FILE_PATH="coverage/budget_app@Transaction.rcov" NAME="Transaction Coverage Results" MODIFIED="1653447255587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
     <SUITE FILE_PATH="coverage/budget_app@categories_edit.rcov" NAME="categories/edit Coverage Results" MODIFIED="1653357506710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />
