@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab377513-0bb0-4012-8741-3ce9b131747a" name="Changes" comment="test fixed">
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/integration/index_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/integration/index_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +367,7 @@
       <workItem from="1653262291665" duration="2862000" />
       <workItem from="1653337670293" duration="52146000" />
       <workItem from="1653456814870" duration="1054000" />
-      <workItem from="1653480583649" duration="8194000" />
+      <workItem from="1653480583649" duration="8659000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1653264522409</created>
@@ -461,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653506072798</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test fixed">
+      <created>1653506224247</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653506224247</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
