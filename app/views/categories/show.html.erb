@@ -1,0 +1,36 @@
+<%= render "layouts/navbar", title: "Transaction" %>
+<div class="shadow">
+  <div class="d-flex justify-content-between">
+    <div class="text-center m-3">
+      <h5><%= @category.name %></h5>
+    </div>
+    <div class="m-3">
+      total <span> <%= @total %></span>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-3">
+  <h5> Transactions </h5>
+</div>
+<% @category.entities.each do |tran|%>
+  <div class="card m-4">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <div>
+          <img src="https://www.go-groups.net/wp-content/uploads/2017/06/GO-GROUPS-262x300.png" alt="icon" class="img-fluid smg">
+        </div>
+        <div class="px-4">
+          <%= tran.name %><br/>
+        </div>
+        <div class="px-4">
+          $ <%= tran.amount %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<div>
+  <%= link_to "Add transaction", new_entity_path, class: "btn btn-blu col-12 py-3" %>
+</div>
