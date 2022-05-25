@@ -3,10 +3,10 @@ require 'rails_helper'
 RSpec.describe 'Index', type: :feature do
   describe 'index' do
     before(:each) do
-      visit root_path
+      visit '/'
     end
 
-    it 'shows the app name' do
+    it 'shows the welcome text' do
       expect(page).to have_content('BUDGETZ')
     end
 
