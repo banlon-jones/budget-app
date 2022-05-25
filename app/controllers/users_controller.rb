@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: %i[ update destroy ]
+  before_action :set_user, only: %i[update destroy]
   load_and_authorize_resource
 
   def home; end
@@ -63,7 +63,7 @@ class UsersController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_user
     @user = User.find(params[:id])
-    #n@user = crrent_user
+    # n@user = crrent_user
   end
 
   # Only allow a lzist of trusted parameters through.

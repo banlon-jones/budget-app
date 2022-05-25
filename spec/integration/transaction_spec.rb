@@ -9,7 +9,7 @@ RSpec.describe 'Transaction', type: :feature do
       fill_in 'Password', with: 'angel2000'
       click_button 'Log in'
       @category = Category.create(name: 'one', icon: 'grams', user_id: @user.id)
-      @transaction = Entity.create(name: "test", amount: 9, category_id: @category.id, user_id: @user.id)
+      @transaction = Entity.create(name: 'test', amount: 9, category_id: @category.id, user_id: @user.id)
       visit category_path(@category)
     end
     it 'shows the page title' do

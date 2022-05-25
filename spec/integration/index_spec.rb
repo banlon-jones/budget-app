@@ -26,6 +26,5 @@ RSpec.describe 'Index', type: :feature do
       expect(page).to have_content('Sign Up')
       expect(page).to have_current_path new_user_registration_path
     end
-
   end
 end

@@ -34,8 +34,7 @@ RSpec.describe 'Login', type: :feature do
       fill_in 'Email', with: 'jones@gmail.com'
       fill_in 'Password', with: '123456'
       click_button 'Log in'
-      expect(page).to have_current_path "/categories"
+      expect(page).to have_current_path '/categories'
     end
   end
 end
-

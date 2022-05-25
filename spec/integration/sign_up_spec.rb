@@ -44,8 +44,7 @@ RSpec.describe 'Sign up', type: :feature do
       fill_in 'Password', with: '123456'
       fill_in 'Password confirmation', with: '123456'
       click_button 'Sign up'
-      expect(page).to have_current_path "/categories"
+      expect(page).to have_current_path '/categories'
     end
   end
 end
-
