@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab377513-0bb0-4012-8741-3ce9b131747a" name="Changes" comment="dollar sign added">
+    <list default="true" id="ab377513-0bb0-4012-8741-3ce9b131747a" name="Changes" comment="linter error fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ability.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ability.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +372,7 @@
       <workItem from="1653262291665" duration="2862000" />
       <workItem from="1653337670293" duration="52146000" />
       <workItem from="1653456814870" duration="1054000" />
-      <workItem from="1653480583649" duration="2388000" />
+      <workItem from="1653480583649" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1653264522409</created>
@@ -434,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653481942806</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="linter error fix">
+      <created>1653483209344</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483209344</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +468,8 @@
     <MESSAGE value="readme and license added" />
     <MESSAGE value="linter errors fix" />
     <MESSAGE value="dollar sign added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dollar sign added" />
+    <MESSAGE value="linter error fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="linter error fix" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/budget_app@index.rcov" NAME="index Coverage Results" MODIFIED="1653443614901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budget-app" />

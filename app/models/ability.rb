@@ -32,7 +32,7 @@ class Ability
     return unless user.present?
 
     # can :manage categories
-    can :manage, User, user_id: user.id
+    can :manage, User, id: user.id
     can :manage, Category, user_id: user.id
     can :manage, Entity, user_id: user.id
 
