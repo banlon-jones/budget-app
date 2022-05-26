@@ -37,7 +37,7 @@ class EntitiesController < ApplicationController
   # Only allow a list of trusted parameters through.
   def entity_params
     entity_hash = params.require(:entity).permit(:name, :amount, :category_id)
-    entity_hash[:user] = current_user
+    entity_hash[:author] = current_user
     entity_hash
   end
 end

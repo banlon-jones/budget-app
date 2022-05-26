@@ -8,7 +8,7 @@ RSpec.describe 'Category', type: :feature do
       fill_in 'Email', with: 'jones@gmail.com'
       fill_in 'Password', with: 'angel2000'
       click_button 'Log in'
-      @category = Category.create(name: 'one', icon: 'grams', user_id: @user.id)
+      @category = Category.create(name: 'one', icon: 'grams')
       visit categories_path
     end
     it 'shows the page title' do

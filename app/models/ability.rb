@@ -33,8 +33,8 @@ class Ability
 
     # can :manage categories
     can :manage, User, id: user.id
-    can :manage, Category, user_id: user.id
-    can :manage, Entity, user_id: user.id
+    can :manage, Category, id: user.id
+    can :manage, Entity, id: user.id
 
     return unless user.is?(admin)
 
