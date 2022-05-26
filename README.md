@@ -1,24 +1,68 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Budget app
 
-Things you may want to cover:
+The Budget app keeps track of all your transactions, and transaction categories.
 
-* Ruby version
+### Preview
 
-* System dependencies
+![app-screenshot](./app-image.png)
 
-* Configuration
+## Live Demo
 
-* Database creation
+[Heroku link](https://nameless-stream-83585.herokuapp.com/)
 
-* Database initialization
+https://nameless-stream-83585.herokuapp.com/
 
-* How to run the test suite
+## Built With
+- Ruby on Rails
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
+- Follow setup instructions below
 
-* Deployment instructions
+### Prerequisites
 
-* ...
+- Ruby
+- Git and Github
+- Terminal
+- Browser
+
+### Setup
+
+- clone the following repo `https://github.com/banlon-jones/budget-app.git`
+- cd into the directory and run `bundle install` to install dependencies
+- Run `rails db:create` and then `rails db:migrate`
+- Run `rails s` to start the app
+- Visit `localhost:3000` in your browser
+
+### Tests
+
+- To run the tests, simply run `rspec` command
+
+# Credits
+
+## Authors
+
+👤 **Banlon Jones** (orozCoding).
+
+- Github: [banlon-jones](https://github.com/banlon-jones)
+- Twitter: [@banlonj](https://twitter.com/banlonjones)
+- LinkedIn: [banlon jones](https://www.linkedin.com/in/banlon-jones-b0205812a)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/banlon-jones/bookstore/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org/)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

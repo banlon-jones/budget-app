@@ -1,0 +1,40 @@
+<nav class="bg-blu text-white">
+  <div>
+    <div class="row p-4">
+      <div class="col-4">
+        <% if title === "Home"%>
+          <div data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fas fa-bars"></i><span> </span>
+          </div>
+        <% else %>
+          <div class="menu-list">
+            <%= link_to "<", categories_path, class: "text-white list-item"%>
+          </div>
+        <%end %>
+        <div class="collapse" id="collapseExample">
+          <div>
+            <% if user_signed_in? %>
+              <ul class="menu-list">
+                <li class="list-item">
+                  <%= link_to "Home", categories_path%>
+                </li>
+                <li class="list-item">
+                  <%= link_to "Sign Out", "users/sign_out", :method => :delete %>
+                </li>
+              </ul>
+            <% else %>
+              <ul class="menu-list">
+                <li class="list-item"><%= link_to "Log In", new_user_session_path %></li>
+                <li class="list-item"><%= link_to "Sign Up", new_user_registration_path %></li>
+              </ul>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <h4><%= title %></h4>
+      </div>
+    </div>
+  </div>
+
+</nav>

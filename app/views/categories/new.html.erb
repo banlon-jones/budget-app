@@ -1,0 +1,10 @@
+<%= render "layouts/navbar", title: "New category" %>
+<div class="container">
+  <%= render "form", category: @category %>
+</div>
+
+<br>
+
+<div>
+  <%= link_to "Back to categories", categories_path, class: "btn col-12"%>
+</div>
