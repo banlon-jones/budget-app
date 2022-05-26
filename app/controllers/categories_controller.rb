@@ -19,7 +19,6 @@ class CategoriesController < ApplicationController
 
   # GET /categories/new
   def new
-    @user = current_user
     @category = Category.new
   end
 
@@ -73,8 +72,6 @@ class CategoriesController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def category_params
-    category_hash = params.require(:category).permit(:icon, :name)
-    category_hash[:user] = current_user
-    category_hash
+    params.require(:category).permit(:icon, :name)
   end
 end

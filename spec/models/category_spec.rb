@@ -6,7 +6,7 @@ RSpec.describe Category, type: :model do
     Category.destroy_all
     Entity.destroy_all
     User.create(id: 1, name: 'Jones', email: 'email@dot.com', password: '321321')
-    @category = Category.create(name: 'test', icon: 'test', user_id: 1)
+    @category = Category.create(name: 'test', icon: 'test')
   end
 
   it 'check if @food name is null' do
